@@ -1,0 +1,6 @@
+# Fichiers à ignorer
+__pycache__/
+*.ipynb_checkpoints/
+*.pbix
+.env
+.DS_Store
