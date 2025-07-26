@@ -1,4 +1,4 @@
-# 📊 Sales Dashboard - E-commerce
+# 📊 Dashboard Interactif de Suivi des Ventes & Performance Commerciale
 
 Projet pédagogique pour apprendre à manipuler des données de ventes, analyser la performance commerciale, visualiser les KPIs et utiliser des outils comme Python, Power BI et SQL.
 
@@ -33,33 +33,39 @@ Créé dans le but de **développer mes compétences en Data Analyse & Visualisa
 
 ## 🛠️ Technologies utilisées
 
-- Python 3.x
-- Pandas, NumPy
-- Plotly Express (visualisation interactive)
-- Jupyter Notebook (via VS Code)
-- Git / GitHub
+- **Python 3.11+**
+- **Pandas** : manipulation des données
+- **Plotly Express** : visualisations interactives
+- **Jupyter Notebook** sous VS Code
+- **Excel / Power BI** pour comparaison d'usage
 
 ---
 
 ## 📁 Structure du projet
 sales-dashboard-ecommerce/
 │
-├── data/ # Données sources (CSV simulé)
-├── notebooks/ # Analyses Jupyter étape par étape
-├── figures/ # (optionnel) Graphiques exportés
-├── README.md # Présentation du projet
-└── .gitignore
-
+├── data/ # Données CSV
+│ └── sales_data.csv
+│
+├── notebooks/ # Analyse principale
+│ └── sales_analysis.ipynb
+│
+├── figures/ # (optionnel) Captures de graphiques
+│
+├── requirements.txt # Librairies Python utilisées
+├── README.md # Ce fichier
+└── .gitignore # Fichiers à exclure
 ---
 
-## 📊 Analyse effectuée
+## 📈 KPIs & Analyses réalisées
 
-- ✅ Génération et exploration du dataset
-- ✅ Calcul du chiffre d’affaires total
-- ✅ Top 5 des produits les plus vendus
-- ✅ Analyse des ventes mensuelles
-- ✅ Analyse par commercial (chiffre d’affaires individuel)
-- ✅ Visualisations interactives avec Plotly
+- ✅ Chiffre d'affaires global
+- ✅ Top 5 produits vendus
+- ✅ Évolution mensuelle des ventes
+- ✅ Meilleurs commerciaux
+- ✅ Répartition géographique (régions)
+- ✅ Analyse par catégories
+- ✅ Top clients
 
 ---
 
@@ -81,6 +87,6 @@ Tu peux faire une capture dans VS Code avec le bouton `Snipping Tool` sous Windo
 
 - [ ] Export PDF / HTML du dashboard
 - [ ] Intégration dans Power BI
-- [ ] Ajout d’analyse régionale, client, catégorie
+
 
 
